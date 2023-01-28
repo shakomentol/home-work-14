@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.flex {
+    display: flex;
+}
 .container {
     width: 1024px;
     height: 100vh;
@@ -19,7 +22,7 @@
 }
 .picture-box {
     width: 300px;
-    height: 400px;
+    height: 450px;
     background-color: blue;
 }
 .picture-box img {
@@ -31,13 +34,49 @@
 .registration-box {
     width: 300px;
     background-color:white;
-    height: 400px;
+    height: 450px;
     border-radius: 22px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: -20px;
 }
+.registration-pictur-wrapper {
+  max-width: 200px;  
+  margin: 0 auto ;
+}
+.registration-pictur-wrapper img {
+    width: 100%;
+}
+.registration-form {
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    width: calc(80%);
+    margin: 0 auto;
+}
+.form-wrapper {
+    flex-direction: column;
+    padding: 5px;
+}
+.form-wrapper label {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #003D61;
+    padding: 3px;
+}
+.form-wrapper input {
+    border-right: none;
+    border-top: none;
+    border-left: 1.5px solid #003D61;
+    border-bottom: 1.5px solid #003D61;
+}
+.form-wrapper ::placeholder {
+    font-size: 6px;
+    text-align: center;
+    margin-right: calc(50%);
+    color: rgba(0, 0, 0, 0.205);
+}
 .login-wrapper {
     width: 250px;
-    height: 500px;
+    height: 550px;
     background-color: yellow;
 }
