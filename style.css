@@ -13,30 +13,27 @@
     margin: 0 auto;
 }
 .container-wrapper {
-    display: flex;
     padding: 20px;
 }
 .h2box h2 {
-    font-size: 15px;
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.263);
+    margin-left: 20px;
 }
 .picture-box {
-    width: 300px;
-    height: 450px;
-    background-color: blue;
+    width: calc(50%);
+    height: calc(90vh);
 }
 .picture-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
 }
 .registration-box {
-    width: 300px;
+    width: calc(50%);
     background-color:white;
-    height: 450px;
+    height: calc(90vh);
     border-radius: 22px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: -20px;
 }
 .registration-pictur-wrapper {
@@ -49,7 +46,6 @@
 .registration-form {
     flex-direction: column;
     justify-content: center;
-    /* background-color: red; */
     width: calc(80%);
     margin: 0 auto;
 }
@@ -65,18 +61,67 @@
 }
 .form-wrapper input {
     border-right: none;
-    border-top: none;
+    border-top: none; 
     border-left: 1.5px solid #003D61;
     border-bottom: 1.5px solid #003D61;
 }
 .form-wrapper ::placeholder {
-    font-size: 6px;
+    font-size: 12px;
     text-align: center;
-    margin-right: calc(50%);
+    margin-right: calc(40%);
     color: rgba(0, 0, 0, 0.205);
 }
-.login-wrapper {
-    width: 250px;
-    height: 550px;
-    background-color: yellow;
+.information-box {
+    width: calc(80%);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.button-icon {
+    width: 35px;
+    height: 20px;
+    background-color: #233D4ED4;
+    border-radius: 100px;
+}
+.icon-item {
+    width: calc(50%);
+    height: calc(80%);
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1.5px;
+    margin-top: 1.5px; 
+}
+.information-item p {
+    font-size: 15px;
+    margin-left: calc(10px);
+    color: #003D61;
+}
+.information-item a {
+    color: #ED2980;
+}
+.login-link {
+    width: calc(50%);
+    height:calc(30px);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.login-link p {
+    color: #003D61;
+}
+.login-link a {
+    color: #ED2980;
+}
+.networks-wrapper {
+    width: calc(50%);
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.network-items {
+    width: calc(20%);
+    margin: 0 auto;
+}
+.network-items img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
