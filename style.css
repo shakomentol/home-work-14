@@ -137,7 +137,7 @@
         margin-top: -40px;
     }
     .network-items {
-        width: 15%;
+        width: 20%;
     }
     .network-items img {
         object-fit: cover;
@@ -145,30 +145,30 @@
 
     }
     .form-wrapper label {
-        font-size: 14px;
+        font-size: 13px;
         padding: 10px;
     }
     .form-wrapper ::placeholder {
-        font-size: 14px;
+        font-size: 13px;
     }
     .information-item {
-        margin-left: 20px;
+        margin-left: 5px;
         margin-top: 10px;
     }
     .button-icon {
         margin-top: 10px;
     }
     .information-item p {
-        font-size: 14px;
+        font-size: 13px;
         
     }
     .login-link p {
-        font-size: 14px;
+        font-size: 13px;
     }
     .login-link {
         margin-top: 20px;
     }
     .networks-wrapper {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
