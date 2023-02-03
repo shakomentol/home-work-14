@@ -145,11 +145,11 @@
 
     }
     .form-wrapper label {
-        font-size: 16px;
+        font-size: 14px;
         padding: 10px;
     }
     .form-wrapper ::placeholder {
-        font-size: 15px;
+        font-size: 14px;
     }
     .information-item {
         margin-left: 20px;
@@ -159,11 +159,11 @@
         margin-top: 10px;
     }
     .information-item p {
-        font-size: 17px;
+        font-size: 14px;
         
     }
     .login-link p {
-        font-size: 17px;
+        font-size: 14px;
     }
     .login-link {
         margin-top: 20px;
