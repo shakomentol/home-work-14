@@ -7,7 +7,8 @@
     display: flex;
 }
 .container {
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
     height: 100vh;
     background-color:#E5E5E5;
     margin: 0 auto;
@@ -21,8 +22,8 @@
     margin-left: 20px;
 }
 .picture-box {
-    width: calc(50%);
-    height: calc(90vh);
+    width: 50%;
+    height: 90vh;
 }
 .picture-box img {
     width: 100%;
@@ -30,9 +31,9 @@
     object-fit: cover;
 }
 .registration-box {
-    width: calc(50%);
+    width: 50%;
     background-color:white;
-    height: calc(90vh);
+    height: 90vh;
     border-radius: 22px;
     margin-left: -20px;
 }
@@ -99,8 +100,8 @@
     color: #ED2980;
 }
 .login-link {
-    width: calc(50%);
-    height:calc(30px);
+    width: 50%;
+    height:30px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -111,17 +112,33 @@
     color: #ED2980;
 }
 .networks-wrapper {
-    width: calc(50%);
+    width: 50%;
     height: 50px;
     margin: 0 auto;
     margin-top: 20px;
 }
 .network-items {
-    width: calc(20%);
+    width: 20%;
     margin: 0 auto;
 }
 .network-items img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .container-wrapper {
+        max-width: 768px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .picture-box {
+        width: 100%;
+    }
+    .registration-box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: -40px;
+    }
 }
