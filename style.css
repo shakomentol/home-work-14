@@ -113,6 +113,7 @@
 }
 .network-items {
     width: 20%;
+    height: 100%;
     margin: 0 auto;
 }
 .network-items img {
@@ -137,11 +138,13 @@
         margin-top: -40px;
     }
     .network-items {
-        width: 22%;
+        width: 40px;
+        height: 40px;
     }
     .network-items img {
         object-fit: cover;
         width: 100%;
+        height: 100%;
 
     }
     .form-wrapper label {
